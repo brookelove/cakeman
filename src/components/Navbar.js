@@ -11,13 +11,16 @@ export default function Navbar() {
         <a>Instagram</a>
       </h3>
       <h3>
-        <a>Instagram</a>
-      </h3>
-      <h3>
         <a>Cash App</a>
       </h3>
       <h3>
+        <a>Cake Man</a>
+      </h3>
+      <h3>
         <a>About</a>
+      </h3>
+      <h3>
+        <a>Products</a>
       </h3>
       <h3>
         <a>Contact</a>
