@@ -1,0 +1,12 @@
+.topContainer {
+  background-image: linear-gradient(0deg, #000000 0%, #b82e1f 25%);
+  height: 100vh;
+  /* background-color: #b82e1f; */
+}
+.cakeManTitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: 800%;
+   
+}

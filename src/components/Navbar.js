@@ -1,31 +1,35 @@
 import React from "react";
-
+import "../assets/css/components/Navbar.css";
 export default function Navbar() {
   const [checked, setChecked] = React.useState(false);
   const handleChange = () => {
     setChecked(!checked);
   };
   return (
-    <div>
-      <h3>
-        <a>Instagram</a>
-      </h3>
-      <h3>
-        <a>Cash App</a>
-      </h3>
-      <h3>
-        <a>Cake Man</a>
-      </h3>
-      <h3>
-        <a>About</a>
-      </h3>
-      <h3>
-        <a>Products</a>
-      </h3>
-      <h3>
-        <a>Contact</a>
-      </h3>
-      <input type="checkbox" checked={checked} onChange={handleChange} />
+    <div className="navbarContainer">
+      <ul className="navbarContext">
+        <li className="listElement">
+          <a className="link">Instagram</a>
+        </li>
+        <li className="listElement">
+          <a className="link">Cash App</a>
+        </li>
+        <li className="listElement">
+          <a href="#about" className="link">
+            About
+          </a>
+        </li>
+        <li className="listElement">
+          <a href="#products" className="link">
+            Products
+          </a>
+        </li>
+        <li className="listElement">
+          <a href="#contact" className="link">
+            Contact
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }
