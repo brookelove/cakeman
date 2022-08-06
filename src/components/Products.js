@@ -1,11 +1,18 @@
 import React from "react";
+import "../assets/css/components/Products.css";
 
 export default function Products() {
   return (
-    <div>
-      <h1>Products</h1>
-      <p>Cake</p>
-      <p>Cupcake</p>
+    <div className="productContainer">
+      <h3 className="productTitle">Products</h3>
+      <div>
+        {/* <img/> */}
+        <p>Cake</p>
+      </div>
+      <div>
+        {/* <img /> */}
+        <p>Cupcake</p>
+      </div>
     </div>
   );
 }
