@@ -4,7 +4,7 @@ import "../assets/css/components/About.css";
 export default function About() {
   return (
     <div className="aboutContainer">
-      <h1>About Me</h1>
+      <h1 id="about">About Me</h1>
       <p>
         I am a one man machine that creates any cake that creates new invidint
         deserts.

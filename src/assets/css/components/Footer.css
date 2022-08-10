@@ -1,4 +1,16 @@
 .footerContainer {
   height: 30vh;
   background-image: linear-gradient(180deg, #802201, #210d10 80%);
+  display: flex;
+  /* padding: 5% 0 5% 0; */
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.footerContext {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
+.footerList {
+  list-style-type: none;
 }

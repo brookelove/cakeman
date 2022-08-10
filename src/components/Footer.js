@@ -5,19 +5,38 @@ import "../assets/css/components/Footer.css";
 
 export default function Footer() {
   return (
-    <div className="footerContainer">
-      <h1>Footer</h1>
-      <a href="https://cash.app/$ChefNoLove" target={"_blank"}>
-        <SiCashapp />
-      </a>
-      <a href="tel: 904-878-5883">
-        <FaPhoneSlash />
-      </a>
-      <a href="https://www.instagram.com/chefnolove/?hl=en" target={"_blank"}>
-        <FaInstagramSquare />
-      </a>
-      <a href="mailto:chefnolove83@gmail.com">chefnolove83@gmail.com</a>
-      <a href="#navbar">^ Back to Top</a>
+    <div id="contact" className="footerContainer">
+      <ul className="footerContext">
+        <li className="footerList">
+          <a href="https://cash.app/$ChefNoLove" target={"_blank"} className="link">
+            <SiCashapp />
+          </a>
+        </li>
+        <li className="footerList">
+          <a href="tel: 904-878-5883" className="link">
+            <FaPhoneSlash />
+          </a>
+        </li>
+        <li className="footerList">
+          <a
+            href="https://www.instagram.com/chefnolove/?hl=en"
+            target={"_blank"}
+            className="link"
+          >
+            <FaInstagramSquare />
+          </a>
+        </li>
+        <li className="footerList">
+          <a href="mailto:chefnolove83@gmail.com" className="link">
+            chefnolove83@gmail.com
+          </a>
+        </li>
+        <li className="footerList">
+          <a href="#navbar" className="link">
+            ^ Back to Top
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }

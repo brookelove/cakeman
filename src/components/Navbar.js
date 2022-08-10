@@ -31,7 +31,7 @@ export default function Navbar() {
         </li>
         <li className="listElement">
           <a href="#products" className="link">
-            Products
+            Deserts
           </a>
         </li>
         <li className="listElement">
