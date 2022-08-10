@@ -1,6 +1,7 @@
 .topContainer {
-  background-image: linear-gradient(0deg, #000000 0%, #b82e1f 25%);
+  /* background-image: linear-gradient(0deg, #000000 0%, #b82e1f 25%); */
   height: 100vh;
+  background-image: linear-gradient(-180deg, #210d10 0%, #802201 70%);
   /* background-color: #b82e1f; */
 }
 .cakeManTitle {

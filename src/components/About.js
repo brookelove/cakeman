@@ -1,8 +1,9 @@
 import React from "react";
+import "../assets/css/components/About.css";
 
 export default function About() {
   return (
-    <div>
+    <div className="aboutContainer">
       <h1>About Me</h1>
       <p>
         I am a one man machine that creates any cake that creates new invidint

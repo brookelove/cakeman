@@ -23,7 +23,10 @@
 .link {
   text-decoration: none;
   color: #ffd700;
+  display: inline-block;
 }
 .link:hover {
-  text-decoration: line;
+  text-decoration: underline;
+  transform: scale(1.2);
+  transition: ease-in-out 0.6s;
 }

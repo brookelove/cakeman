@@ -1,0 +1,5 @@
+.aboutContainer {
+  height: 50vh;
+  /* background-color: #000000; */
+  background-image: linear-gradient(180deg, #91221e 0%, #802201 70%);
+}
