@@ -5,10 +5,14 @@ import "../assets/css/components/Footer.css";
 
 export default function Footer() {
   return (
-    <div id="contact" className="footerContainer">
+    <footer id="contact" className="footerContainer">
       <ul className="footerContext">
         <li className="footerList">
-          <a href="https://cash.app/$ChefNoLove" target={"_blank"} className="link">
+          <a
+            href="https://cash.app/$ChefNoLove"
+            target={"_blank"}
+            className="link"
+          >
             <SiCashapp />
           </a>
         </li>
@@ -37,6 +41,6 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-    </div>
+    </footer>
   );
 }

@@ -9,8 +9,8 @@ export default function Navbar() {
     setChecked(!checked);
   };
   return (
-    <div className="navbarContainer">
-      <ul className="navbarContext">
+    <nav className="navbarContainer"id="navbar">
+      <ul className="navbarContext" >
         <li className="listElement">
           <a
             className="link"
@@ -40,6 +40,6 @@ export default function Navbar() {
           </a>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 }

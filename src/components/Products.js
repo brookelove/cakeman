@@ -10,8 +10,8 @@ import Queen from "../assets/images/crownQueen.png";
 export default function Products() {
   return (
     <div className="productContainer">
-      {/* <h1 id="products">Products</h1> */}
       <div className="flexContent">
+      <h1 id="productsTitle">DESSERTS</h1>
         <div className="gridContainer">
           <div className="grid-item">
             <img

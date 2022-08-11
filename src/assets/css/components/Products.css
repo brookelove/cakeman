@@ -1,10 +1,19 @@
 .productContainer {
   height: 120vh;
-  /* background-color: #000000; */
-  background-image: linear-gradient(180deg, #802201 0%, #91221e 70%);
+  background-color: #000000;
+  /* background-image: linear-gradient(180deg, #802201 0%, #91221e 70%); */
   display: flex;
   justify-content: center;
   /* text-shadow: 0 0 3px #FF0000; */
+}
+#productsTitle {
+  font-family: "Anton", sans-serif;
+  color: #802201;
+  text-shadow: 2px 2px #ff0000;
+  padding-bottom: 2%;
+  font-size: 300%;
+  text-align: center;
+  letter-spacing: 0.5rem;
 }
 .gridContainer {
   height: 100vh;
