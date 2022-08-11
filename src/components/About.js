@@ -3,13 +3,14 @@ import "../assets/css/components/About.css";
 import UncleJ from "../assets/images/UncleJ.png";
 export default function About() {
   return (
-    <div className="aboutContainer">
-      <h1 id="about" className="aboutTitle">
+    <div id="about" className="aboutContainer">
+      {/* <h1 >
         CAKE MAN
-      </h1>
+      </h1> */}
       <div className="trifold">
         <img src={UncleJ} width="300" className="uncleJPic" />
         <div className="textContainer">
+          <h1 className="aboutTitle">About the Cake Man</h1> 
           <p className="aboutText">
             I am a one man machine that creates any cake that creates new
             inventive deserts.

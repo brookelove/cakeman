@@ -1,15 +1,49 @@
 import React from "react";
 import "../assets/css/components/Products.css";
+import Henessy from "../assets/images/hennesy.png";
+import sixcupcakes from "../assets/images/6cupcakes.png";
+import sixcupcakes2 from "../assets/images/6cupcakes2.png";
+import gucciShoe from "../assets/images/gucciShoe.png";
+import manyCupcakes from "../assets/images/manyCupcakes.png";
+import Queen from "../assets/images/crownQueen.png";
+
 export default function Products() {
   return (
     <div className="productContainer">
-      <h1 id="products">Products</h1>
-      <div data-mc-src="70f39255-bb93-4afc-9e43-e2516d5b0b61#instagram"></div>
-      <script
-        src="https://cdn2.woxo.tech/a.js#62b2bef6e9cfc2002fc7bbd3"
-        async
-        data-usrc
-      ></script>
+      {/* <h1 id="products">Products</h1> */}
+      <div className="flexContent">
+        <div className="gridContainer">
+          <div className="grid-item">
+            <img
+              src={sixcupcakes}
+              alt="images"
+              width="270"
+              className="scale6cupcakes"
+            />
+          </div>
+          <div className="grid-item">
+            <img src={Henessy} alt="images" width="270" />
+          </div>
+
+          <div className="grid-item">
+            <img src={sixcupcakes2} alt="images" width="270" />
+          </div>
+          <div className="grid-item">
+            <img src={gucciShoe} alt="images" width="270" />
+          </div>
+          <div className="grid-item">
+            <img
+              src={manyCupcakes}
+              alt="images"
+              width="270"
+              className="manyCupcakesScale"
+            />
+          </div>
+          <div className="grid-item">
+            <img src={Queen} alt="images" width="270" />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

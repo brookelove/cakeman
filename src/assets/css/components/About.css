@@ -9,16 +9,21 @@
   text-shadow: 2px 2px #ff0000;
 }
 .uncleJPic {
-  transform: scale(.8);
+  transform: scale(0.8);
 }
 .trifold {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
 }
 .textContainer {
   text-align: center;
-  font-size: 110%;
-  max-width: 40%; 
+  font-size: 150%;
+  max-width: 40%;
+}
+@media screen and (max-width: 425px) {
+  .aboutContainer {
+    height: 175vh;
+  }
 }
