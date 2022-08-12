@@ -38,7 +38,7 @@ SO thi sis my first project that I have completed for someone else> It was creat
 
 <!-- ![Gif of Cake Man](./screenShots/cakeManVideo.gif) -->
 
-<img src="./screenShots/cakeManVideo.gif" width="750" />
+<img src="./screenShots/cakeManVideo2.gif" width="650" />
 
 # Future
 
