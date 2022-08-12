@@ -1,4 +1,5 @@
 import React from "react";
+import "animate.css";
 import "../assets/css/pages/Landing.css";
 import Navbar from "../components/Navbar";
 import Products from "../components/Products";
@@ -14,13 +15,14 @@ export default function Landing() {
           <div className="landingCakeContainer">
             <img src={blackAndWhite} className="landingCake" />
           </div>
-          <h1 className="cakeManTitle">CAKE MAN</h1>
+          <h1 className="cakeManTitle animate__animated animate__fadeIn">
+            CAKE MAN
+          </h1>
         </div>
         <Products />
         <About />
         <Footer />
       </div>
-      
     </div>
   );
 }
