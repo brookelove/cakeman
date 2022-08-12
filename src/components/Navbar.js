@@ -8,9 +8,10 @@ export default function Navbar() {
   const handleChange = () => {
     setChecked(!checked);
   };
+
   return (
-    <nav className="navbarContainer"id="navbar">
-      <ul className="navbarContext" >
+    <nav className="navbarContainer">
+      <ul className="navbarContext" id="navbar">
         <li className="listElement">
           <a
             className="link"
@@ -27,6 +28,11 @@ export default function Navbar() {
         <li className="listElement">
           <a href="#about" className="link">
             About
+          </a>
+        </li>
+        <li className="listElement">
+          <a href="#home" className="link">
+            Home
           </a>
         </li>
         <li className="listElement">

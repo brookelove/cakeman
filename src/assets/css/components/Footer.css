@@ -15,3 +15,7 @@
 .footerList {
   list-style-type: none;
 }
+.footer {
+  color: whitesmoke;
+  font-size: 130%;
+}

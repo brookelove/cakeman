@@ -6,7 +6,7 @@ import "../assets/css/components/Footer.css";
 export default function Footer() {
   return (
     <footer id="contact" className="footerContainer">
-      <ul className="footerContext">
+      <div className="footerContext">
         <li className="footerList">
           <a
             href="https://cash.app/$ChefNoLove"
@@ -40,7 +40,8 @@ export default function Footer() {
             ^ Back to Top
           </a>
         </li>
-      </ul>
+      </div>
+  
     </footer>
   );
 }

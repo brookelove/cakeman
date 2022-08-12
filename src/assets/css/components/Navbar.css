@@ -17,6 +17,10 @@
   flex-direction: row-reverse;
   display: flex;
 }
+#navbar {
+  overflow: hidden;
+
+}
 .listElement {
   list-style-type: none;
   margin: 0 2% 0 2%;
@@ -31,4 +35,9 @@
   text-decoration: underline;
   transform: scale(1.2);
   transition: ease-in-out 0.6s;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }

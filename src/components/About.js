@@ -14,6 +14,9 @@ export default function About() {
           <h1 className="coordinates">30.3322° N, 81.6557° W</h1>
         
           <p className="aboutText">CALL OR TEXT TO INQUIRE ABOUT ORDERS</p>
+          <a href="mailto:chefnolove83@gmail.com" className="link">
+            chefnolove83@gmail.com
+          </a>
         </div>
       </div>
     </div>

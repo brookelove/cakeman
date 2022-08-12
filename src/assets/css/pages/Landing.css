@@ -2,6 +2,7 @@
 
 body {
   font-family: "Anton", sans-serif;
+  /* overflow: hidden; */
 }
 .landingCakeContainer {
   display: flex;
