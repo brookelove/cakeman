@@ -36,7 +36,9 @@ SO thi sis my first project that I have completed for someone else> It was creat
 
 ![Image of Cake Man](./screenShots/cakeManWeb.png)
 
-![Gif of Cake Man](./screenShots/cakeManVideo.gif)
+<!-- ![Gif of Cake Man](./screenShots/cakeManVideo.gif) -->
+
+<img src="./screenShots/cakeManVideo.gif" width="750" />
 
 # Future
 
