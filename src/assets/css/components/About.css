@@ -33,14 +33,14 @@
   text-shadow: none;
   font-size: 250%;
 }
-.aboutText {
-  padding-top: 5%;
+.aboutTextContainer {
+  padding: 5%;
   font-size: 120%;
 }
 @media screen and (max-width: 425px) {
   .aboutContainer {
     height: 190vh;
-    padding-bottom: 10%;
+    padding-bottom: 40%;
   }
   .trifold {
     display: flex;

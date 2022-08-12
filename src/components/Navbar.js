@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/components/Navbar.css";
-import { FaInstagramSquare } from "react-icons/fa";
+import { FaInstagramSquare, FaPhoneSlash } from "react-icons/fa";
 import { SiCashapp } from "react-icons/si";
 import { Link } from "react-scroll";
 export default function Navbar() {
@@ -23,6 +23,11 @@ export default function Navbar() {
         <li className="listElement">
           <a className="link" href="https://cash.app/$ChefNoLove">
             <SiCashapp />
+          </a>
+        </li>
+        <li className="footerList">
+          <a href="tel: 904-878-5883" className="link">
+            <FaPhoneSlash />
           </a>
         </li>
         <li className="listElement">
