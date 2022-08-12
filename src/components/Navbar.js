@@ -16,12 +16,17 @@ export default function Navbar() {
           <a
             className="link"
             href="https://www.instagram.com/chefnolove/?hl=en"
+            target={"_blank"}
           >
             <FaInstagramSquare />
           </a>
         </li>
         <li className="listElement">
-          <a className="link" href="https://cash.app/$ChefNoLove">
+          <a
+            className="link"
+            href="https://cash.app/$ChefNoLove"
+            target={"_blank"}
+          >
             <SiCashapp />
           </a>
         </li>
