@@ -7,41 +7,10 @@ export default function Footer() {
   return (
     <footer id="contact" className="footerContainer">
       <div className="footerContext">
-        <li className="footerList">
-          <a
-            href="https://cash.app/$ChefNoLove"
-            target={"_blank"}
-            className="link"
-          >
-            <SiCashapp />
-          </a>
-        </li>
-        <li className="footerList">
-          <a href="tel: 904-878-5883" className="link">
-            <FaPhoneSlash />
-          </a>
-        </li>
-        <li className="footerList">
-          <a
-            href="https://www.instagram.com/chefnolove/?hl=en"
-            target={"_blank"}
-            className="link"
-          >
-            <FaInstagramSquare />
-          </a>
-        </li>
-        <li className="footerList">
-          <a href="mailto:chefnolove83@gmail.com" className="link">
-            chefnolove83@gmail.com
-          </a>
-        </li>
-        <li className="footerList">
-          <a href="#navbar" className="link">
-            ^ Back to Top
-          </a>
-        </li>
+        <a className="mySignature" href="https://github.com/brookelove">
+          Made by brooke-s
+        </a>
       </div>
-  
     </footer>
   );
 }

@@ -71,7 +71,7 @@ export default function Navbar() {
             Deserts
           </a> */}
         </li>
-        <li className="listElement">
+        {/* <li className="listElement">
           <Link
             to="contact"
             spy={true}
@@ -82,10 +82,7 @@ export default function Navbar() {
           >
             Contact
           </Link>
-          {/* <a href="#contact" className="link">
-            Contact
-          </a> */}
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

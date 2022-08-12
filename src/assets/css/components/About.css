@@ -1,8 +1,8 @@
 .aboutContainer {
-  height: 130vh;
+  height: 100vh;
   background-color: #000000;
   padding-top: 15%;
-  padding-bottom: 15%;
+  /* padding-bottom: 0%; */
 }
 .aboutTitle {
   display: flex;
@@ -40,7 +40,7 @@
 @media screen and (max-width: 425px) {
   .aboutContainer {
     height: 190vh;
-    padding-bottom: 40%;
+    /* padding-bottom: 40%; */
   }
   .trifold {
     display: flex;
