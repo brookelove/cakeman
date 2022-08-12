@@ -22,7 +22,7 @@
 
 # Description
 
-SO thi sis my first project that I have completed for someone else> It was created for my uncle Jason to run his cake business. He makes crazy cakes thate are inventive and creative. I created this with the intention of cool relazed vibe with not that many flashy colors other than the cakes, which speak for themselves.
+This is my first project that I have completed for someone else. It was created for my Uncle Jason to run his cake business. He makes crazy cakes thate are inventive and creative. I created this with the intention of cool relazed vibe with not that many flashy colors other than the cakes, which speak for themselves.
 
 # Motivation
 
@@ -42,7 +42,7 @@ SO thi sis my first project that I have completed for someone else> It was creat
 
 # Future
 
-     I would like to intergrate the animated title to happen everytime you click on teh homescreen and it scrolls to the top of the page. I think I also want to create a way for when the sticky bar scrolls down it changes colors to reflect a difference betwen the bar and the page. I think I would also like to figure out how to import 
+     I would like to intergrate the animated title to happen everytime you click on teh homescreen and it scrolls to the top of the page. I think I also want to create a way for when the sticky bar scrolls down it changes colors to reflect a difference betwen the bar and the page. I think I would also like to figure out how to import
 
 # License
 
