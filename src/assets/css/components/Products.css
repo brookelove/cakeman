@@ -42,6 +42,7 @@
 @media screen and (max-width: 768px) {
   .productContainer {
     height: 175vh;
+    /* display: block; */
   }
   .gridContainer {
     grid-template-columns: repeat(2, 1fr);
