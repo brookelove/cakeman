@@ -31,3 +31,8 @@ body {
   font-size: 800%;
   text-shadow: 2px 2px #ff0000;
 }
+@media screen and (max-width: 425px) {
+  .cakeManTitle {
+    top: 30%;
+  }
+}

@@ -8,9 +8,10 @@
   flex-direction: column;
   text-transform: uppercase;
   justify-content: space-evenly;
-  /* background-image: linear-gradient(rgb(223, 5, 5), rgb(0, 0, 0)); */
-  /* background-color: #000000; */
-  /* background-image: linear-gradient(0deg, #000000 0%, #b82e1f 74%); */
+  position: fixed;
+  z-index: 100000;
+  overflow: hidden;
+  width: 100%;
 }
 .navbarContext {
   justify-content: space-around;
@@ -19,7 +20,6 @@
 }
 #navbar {
   overflow: hidden;
-
 }
 .listElement {
   list-style-type: none;

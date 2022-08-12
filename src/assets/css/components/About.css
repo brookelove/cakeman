@@ -2,7 +2,7 @@
   height: 130vh;
   background-color: #000000;
   padding-top: 15%;
-  /* background-image: linear-gradient(180deg, #91221e 0%, #802201 70%); */
+  padding-bottom: 15%;
 }
 .aboutTitle {
   display: flex;
@@ -13,7 +13,7 @@
 }
 .uncleJPic {
   transform: scale(0.8);
-  width: 25%;
+  width: 240px;
 }
 .trifold {
   display: flex;
@@ -39,6 +39,11 @@
 }
 @media screen and (max-width: 425px) {
   .aboutContainer {
-    height: 175vh;
+    height: 190vh;
+    padding-bottom: 10%;
+  }
+  .trifold {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
