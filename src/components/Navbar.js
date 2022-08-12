@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/css/components/Navbar.css";
 import { FaInstagramSquare } from "react-icons/fa";
 import { SiCashapp } from "react-icons/si";
-
+import { Link } from "react-scroll";
 export default function Navbar() {
   const [checked, setChecked] = React.useState(false);
   const handleChange = () => {
@@ -26,24 +26,60 @@ export default function Navbar() {
           </a>
         </li>
         <li className="listElement">
-          <a href="#about" className="link">
+          {/* <a href="#about" className="link"> */}
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="link"
+          >
             About
-          </a>
+          </Link>
+          {/* </a> */}
         </li>
         <li className="listElement">
-          <a href="#home" className="link">
+          <Link
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="link"
+          >
             Home
-          </a>
+          </Link>
         </li>
         <li className="listElement">
-          <a href="#products" className="link">
+          <Link
+            to="products"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="link"
+          >
+            Desserts
+          </Link>
+          {/* <a href="#products" className="link">
             Deserts
-          </a>
+          </a> */}
         </li>
         <li className="listElement">
-          <a href="#contact" className="link">
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="link"
+          >
             Contact
-          </a>
+          </Link>
+          {/* <a href="#contact" className="link">
+            Contact
+          </a> */}
         </li>
       </ul>
     </nav>
